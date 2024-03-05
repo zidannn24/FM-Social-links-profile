@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    margin: 100px auto 50px;
+    width: 385px;
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+    border-radius: 14px;
+}
+
+article{
+    padding: 20px;
+}
+
+.personal-avatar{
+    text-align: center;
+}
+
+.personal-avatar img{
+    border-radius: 100%;
+    width: 100px;
+}
+
+.personal-info{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.personal-info h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.personal-info h2{
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+}
+
+.personal-job{
+    padding-bottom: 13px;
+}
+
+.personal-job p{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 14px;
+}
+
+.personal-social-links{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.social-link{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-link:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+
+footer{
+    background-color: hsl(75, 94%, 57%);
+    width: 100%;
+}
+
+.attribution {
+    font-size: 15px; 
+    font-weight: bold;
+    text-align: center; 
+    color: hsl(0, 0%, 12%);
+    padding: 20px;
+}
+
+.attribution a {
+    color: hsl(0, 0%, 8%); 
+}
+
+@media screen and (max-width: 475px){
+    .container{
+        width: 80%;
+        margin: 100px auto 50px;
+    }
+
+    article{
+        padding: 10px;
+    }
+}
