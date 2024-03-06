@@ -1,108 +1,91 @@
-body{
+*{
+    padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
     font-family: 'Inter', sans-serif;
     background-color: hsl(0, 0%, 8%);
+    color: white;
+}
+
+main{
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+    margin-block: 3rem;
+    border-radius: 14px;
+    padding: 2.2rem;
+}
+
+.content{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.container{
-    margin: 100px auto 50px;
-    width: 385px;
-    background-color: hsl(0, 0%, 12%);
-    padding: 20px;
-    border-radius: 14px;
-}
-
-article{
-    padding: 20px;
-}
-
-.personal-avatar{
-    text-align: center;
-}
-
-.personal-avatar img{
+img{
     border-radius: 100%;
-    width: 100px;
+    width: 6rem;
 }
 
-.personal-info{
-    color: hsl(0, 0%, 100%);
-    text-align: center;
-    padding-top:10px;
-    padding-bottom: 10px;
+h1{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.7rem;
 }
 
-.personal-info h1{
-    color: hsl(0, 0%, 100%);
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.personal-info h2{
+.address{
     color: hsl(75, 94%, 57%);
-    font-size: 14px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 1.7rem;
 }
 
-.personal-job{
-    padding-bottom: 13px;
+.job{
+    font-size: 0.9rem;
+    margin-bottom: 1.7rem;
+    color: hsl(0, 0%, 84%);
 }
 
-.personal-job p{
-    color: hsl(0, 0%, 100%);
-    text-align: center;
-    font-size: 14px;
-}
-
-.personal-social-links{
+ul{
     display: flex;
     flex-direction: column;
+    list-style: none;
+    gap: 1rem;
     width: 100%;
-    gap: 20px;
 }
 
-.social-link{
-    background-color: hsl(0, 0%, 20%);
-    border-radius: 10px;
-    padding: 15px;
-    text-align: center;
-    font-size: 14px;
-    color: white;
+ul a{
     text-decoration: none;
+    text-align: center;
+    color: white;
+    width: 100%; 
+    background-color: hsl(0, 0%, 20%);
+    display: block; 
+    padding: 0.8rem; 
+    border-radius: 10px;
+    font-size: 0.8rem;
     font-weight: bold;
 }
 
-.social-link:hover{
+ul a:hover{
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 20%);
 }
 
-footer{
-    background-color: hsl(75, 94%, 57%);
-    width: 100%;
+.attribution{
+    font-size: 0.6rem;
 }
 
-.attribution {
-    font-size: 15px; 
-    font-weight: bold;
-    text-align: center; 
-    color: hsl(0, 0%, 12%);
-    padding: 20px;
-}
-
-.attribution a {
-    color: hsl(0, 0%, 8%); 
-}
-
-@media screen and (max-width: 475px){
-    .container{
-        width: 80%;
-        margin: 100px auto 50px;
-    }
-
-    article{
-        padding: 10px;
-    }
+.attribution a{
+    text-align: center;
+    color: hsl(75, 94%, 57%);
 }
