@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](../2.SS/social-links-profile/desktop.png)
-![Mobile](../2.SS/social-links-profile/mobile.png)
+![Desktop](./design/desktop-result.png)
+![Mobile](./design/mobile-result.png)
 
 ### Links
 
