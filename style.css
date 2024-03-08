@@ -15,20 +15,21 @@ body {
 }
 
 main{
-    background-color: hsl(0, 0%, 12%);
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 30rem;
-    margin-block: 3rem;
-    border-radius: 14px;
-    padding: 2.2rem;
+    width: 100%;
+    margin-block: auto;
 }
 
 .content{
+    background-color: hsl(0, 0%, 12%);
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 14px;
+    padding: 2.2rem;
 }
 
 img{
